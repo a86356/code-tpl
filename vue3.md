@@ -39,9 +39,10 @@ async validateCompanylogin() {
     code_reload_num: 0,
     captchaEnabled: true
 }, 做验证
+
 ```
 
-# 提交代码 submit-view
+# 提交代码 submit-view 
 ```angular2html
 const submit = () => {
     if (!store.validatepersonlogin()) {
